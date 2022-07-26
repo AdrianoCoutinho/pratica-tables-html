@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade Prática - Tabelas HTML</title>
+    <style>
+        body {margin: 0; padding: 0;}
+        table
+        {
+            width: 100%;
+            height: 100vh;
+            border-collapse: collapse;
+        }
+        td
+        {
+            border: 1px solid black;
+        }
+        ul
+        {
+            margin: 0 auto;
+            text-align: center;
+        }
+        ul li 
+        {
+            list-style-type: none;
+            display: inline;
+            text-align: center;
+            margin-left: 10px;
+        }
+        li a
+        {
+            padding: 10px;
+            text-decoration: none;
+            color: blue;
+        }        
+    </style>
+</head>
+<body>
+    <main>
+        <table>
+            <thead style="text-align: center; height: 10%;">
+                <tr>
+                    <td colspan="2">TOPO</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td style="text-align: center; width: 20%;">MENU</td>
+                    <td style="text-align: center;">
+                        CONTEÚDO
+                        <br>
+                        <ul>
+                            <li><a href="tabela-1.html">Pag 1</a></li>
+                            <li><a href="tabela-2.html">Pag 2</a></li>
+                            <li><a href="tabela-3.html">Pag 3</a></li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot style="text-align: center; height: 10%;">
+                <tr>
+                    <td colspan="2">RODAPÉ</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+</body>
+</html>
